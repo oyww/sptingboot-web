@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>sptingboot-web</groupId>
+	<artifactId>sptingboot-web</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<!-- 添加需要依赖的jar包 -->
+	<dependencies>
+		<!-- 一个依赖代表一个jar包 -->
+		<dependency>
+			<!-- 组 -->
+			<groupId>junit</groupId>
+			<!-- 项目 -->
+			<artifactId>junit</artifactId>
+			<!-- 版本 -->
+			<version>4.10</version>
+		</dependency>
+		<dependency>
+			<groupId>sptingboot</groupId>
+			<artifactId>sptingboot-jar</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
